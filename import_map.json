@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "yargs": "https://deno.land/x/yargs@v17.5.1-deno/deno.ts",
+    "yargs-types": "https://deno.land/x/yargs@v17.5.1-deno/deno-types.ts",
+    "yargs/": "https://deno.land/x/yargs@v17.5.1-deno/",
+    "path" : "https://deno.land/std@0.140.0/path/mod.ts",
+    "fs": "https://deno.land/std@0.140.0/fs/mod.ts",
+    "webview": "https://deno.land/x/webview@0.7.0-pre.1/mod.ts"
+  }
+}

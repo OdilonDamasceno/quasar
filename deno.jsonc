@@ -1,0 +1,16 @@
+{
+  "importMap": "import_map.json",
+  "tasks": {
+    "run": "deno run --allow-env --unstable --allow-read --allow-ffi mod.ts"
+  },
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "dom.asynciterable",
+      "deno.ns"
+    ],
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment"
+  }
+}
