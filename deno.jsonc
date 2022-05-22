@@ -1,7 +1,8 @@
 {
   "importMap": "import_map.json",
   "tasks": {
-    "run": "deno run --allow-env --unstable --allow-read --allow-ffi mod.ts"
+    "run": "deno run --allow-env --unstable --allow-read --allow-ffi mod.ts",
+    "build": "mkdir -p build && deno compile --allow-env --unstable --allow-read --allow-ffi --output=build/quasar mod.ts"
   },
   "compilerOptions": {
     "lib": [
